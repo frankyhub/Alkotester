@@ -27,4 +27,6 @@
 |   GND   |  BLK    |  NC      |
 | -------- | -------- | -------- | 
 
+!!!Bei den Gas-Sensoren ist zu beachten das diese sehr viel Strom benötigen, sowie eine gewisse Vorheiztzeit benötigen!!!
+
 ---
