@@ -13,7 +13,16 @@
 
 ## Verdrahtung:
 
-| NANO |  Display | MQ-03 |
+| Spalte 1 | Spalte 2 | Spalte 3 |
+| -------- | -------- | -------- |
+| A        | B        | 1        |
+| C        | D        | 2        |
+| E        | F        | 3        |
+| G        | H        | 4        |
+
+
+
+| NANO  |   Display  |  MQ-03    |
 | GND     |   GND    |   GND     | 
 | 5V     |   VCC    |    VCC    |
 |  A0    |  NC     |   A0    |
