@@ -23,6 +23,7 @@
 
 
 | NANO  |   Display  |  MQ-03    |
+| -------- | -------- | -------- |
 | GND     |   GND    |   GND     | 
 | 5V     |   VCC    |    VCC    |
 |  A0    |  NC     |   A0    |
