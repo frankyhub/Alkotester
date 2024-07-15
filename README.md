@@ -1,15 +1,20 @@
+<a name="oben"></a>
+
 # Alkotester
 
-## Hardware:
+## Story
+Das Repo beschreibt einen Alkotester mit einem NANO und einem LCD-Display oder einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten MEssung eine Aufärmzeit benötigt.
+Die Messung wird in fünf Stufen unterteilt, von "Apfelsaft" bis "Krankenwagen". Bitte beachten: Die Polizei kann andere Messergebisse erzielen!
 
+## Hardware:
 + 1 NANO
 + 1 MQ-03 Sensor
 + 1 LCD Display 128 x 64 Pixel
 + 1 Gehäuse
 + Verbrauchsmaterial
 
- ## MQ-03 Sensor 
-### Dieser analoge Gassensor besitzt ein kleines Heizelement mit einem elektronisch-chemischen Sensor. Er ist für die Verwendung in Gebäuden geeignet. Er kann erst nach Beendigung der Aufwärmphase genaue Messwerte ausgeben.
+## MQ-03 Sensor 
+Dieser analoge Gassensor besitzt ein kleines Heizelement mit einem elektronisch-chemischen Sensor. Er ist für die Verwendung in Gebäuden geeignet. Er kann erst nach Beendigung der Aufwärmphase genaue Messwerte ausgeben.
 Achtung: Der Sensor wird bei Betrieb warm!
 
 Technische Daten:
@@ -29,8 +34,7 @@ Technische Daten:
 +	Abmessungen: 32 x 21 x 20 mm
 
 
-## Verdrahtung:
-
+## Verdrahtung LCD-Display:
 
 | NANO  |   Display  |  MQ-03    |
 | -------- | -------- | -------- |
@@ -45,6 +49,17 @@ Technische Daten:
 |   GND   |  BLK    |  NC      |
 | -------- | -------- | -------- | 
 
-!!!Bei den Gas-Sensoren ist zu beachten das diese sehr viel Strom benötigen, sowie eine gewisse Vorheiztzeit benötigen!!!
+## Verdrahtung OLED-Display:
 
----
+| NANO  |   Display  |  MQ-03    |
+| -------- | -------- | -------- |
+| GND     |   GND    |   GND     | 
+| 5V     |   VCC    |    VCC    |
+|  A0    |  NC     |   A0    |
+| A4  |   SDA  |    NC   |
+|  A5   |    SCL  |   NC    |
+| -------- | -------- | -------- |
+
+<div style="position:absolute; left:2cm; ">   
+<ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
+</div>  
