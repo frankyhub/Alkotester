@@ -13,20 +13,20 @@
 Achtung: Der Sensor wird bei Betrieb warm!
 
 Technische Daten:
-•	Messbereich: 100 - 1000 ppm
-•	Messbare Substanzen: Ethanol, Alkohol über die Wasserstoffkonzentration
-•	Einsatzbereiche: z.B. für Atemalkoholtester, für Robotik, Mikrocontrollerprojekte
-•	Kompatibel mit: Raspberry Pi (mit AD-Wandler), Arduino, etc.
-•	Besonderheiten: hohe Empfindlichkeit, welche mit einem Potentiometer angepasst werden kann, schnelle Reaktionszeit, kaum Sensitivität zu Benzin
-•	Analoge Ausgabe: Auswertung der Messwerte vom Mikrocontroller
-•	Digitale Ausgabe: Schwellenwerteinstellung möglich
-•	Pins: VCC: Stromversorgung 5V, GND Masse, AOUT: Analoger Output, DOUT: Digitaler Output
-•	Antwortzeit: ≤ 1 s
-•	Ansprechzeit nach dem Einschalten: ≤ 30 s
-•	Heizstromaufnahme: ≤ 150 mA
-•	Heizstromspannung: 5 ±0,2 V / 1,5 ±0,1 V
-•	Heizenergieleistung: 750 mW
-•	Abmessungen: 32 x 21 x 20 mm
++	Messbereich: 100 - 1000 ppm
++	Messbare Substanzen: Ethanol, Alkohol über die Wasserstoffkonzentration
++	Einsatzbereiche: z.B. für Atemalkoholtester, für Robotik, Mikrocontrollerprojekte
++	Kompatibel mit: Raspberry Pi (mit AD-Wandler), Arduino, etc.
++	Besonderheiten: hohe Empfindlichkeit, welche mit einem Potentiometer angepasst werden kann, schnelle Reaktionszeit, kaum Sensitivität zu Benzin
++	Analoge Ausgabe: Auswertung der Messwerte vom Mikrocontroller
++	Digitale Ausgabe: Schwellenwerteinstellung möglich
++	Pins: VCC: Stromversorgung 5V, GND Masse, AOUT: Analoger Output, DOUT: Digitaler Output
++	Antwortzeit: ≤ 1 s
++	Ansprechzeit nach dem Einschalten: ≤ 30 s
++	Heizstromaufnahme: ≤ 150 mA
++	Heizstromspannung: 5 ±0,2 V / 1,5 ±0,1 V
++	Heizenergieleistung: 750 mW
++	Abmessungen: 32 x 21 x 20 mm
 
 
 ## Verdrahtung:
