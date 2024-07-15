@@ -3,13 +3,14 @@
 # Alkotester
 
 ## Story
-Das Repo beschreibt einen Alkotester mit einem NANO und einem LCD-Display oder einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten MEssung eine Aufärmzeit benötigt.
+Das Repo beschreibt einen Alkotester mit einem NANO und einem LCD-Display oder einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten Messung eine Aufärmzeit benötigt.
 Die Messung wird in fünf Stufen unterteilt, von "Apfelsaft" bis "Krankenwagen". Bitte beachten: Die Polizei kann andere Messergebisse erzielen!
 
 ## Hardware:
 + 1 NANO
 + 1 MQ-03 Sensor
-+ 1 LCD Display 128 x 64 Pixel
++ 1 LCD Display 128 x 64 Pixel oder
++ 1 OLED-Display 0,96"
 + 1 Gehäuse
 + Verbrauchsmaterial
 
