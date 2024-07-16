@@ -8,6 +8,8 @@ Die Messung wird in mehrere Stufen unterteilt. Es steht ein Testprogramm für de
 
 ![Bild](pics/oledcase.png)
 
+## Abstufungen beim Alktest
+
 ![Bild](pics/OLED.png)
 
 
