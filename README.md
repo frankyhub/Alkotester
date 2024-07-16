@@ -3,15 +3,18 @@
 # Alkotester
 
 ## Story
-Das Repo beschreibt einen Alkotester mit einem NANO und einem LCD-Display oder einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten Messung eine Aufärmzeit benötigt.
-Die Messung wird in fünf Stufen unterteilt, von "Apfelsaft" bis "Krankenwagen". Bitte beachten: Die Polizei kann andere Messergebisse erzielen!
-Es steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
+Das Repo beschreibt einen Alkotester mit einem NANO und einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten Messung eine Aufärmzeit benötigt.
+Die Messung wird in mehrere Stufen unterteilt. Es steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
+
+![Bild](pics/oledcase.png)
+
+![Bild](pics/OLED.png)
+
 
 ## Hardware:
 + 1 NANO
 + 1 MQ-03 Sensor
-+ 1 LCD Display 128 x 64 Pixel oder
-+ 1 OLED-Display 0,96"
++ 1 OLED-Display 1,3"
 + 1 Gehäuse
 + Verbrauchsmaterial
 
@@ -35,21 +38,6 @@ Technische Daten:
 +	Heizenergieleistung: 750 mW
 +	Abmessungen: 32 x 21 x 20 mm
 
-
-## Verdrahtung LCD-Display:
-
-| NANO  |   Display  |  MQ-03    |
-| -------- | -------- | -------- |
-| GND     |   GND    |   GND     | 
-| 5V     |   VCC    |    VCC    |
-|  A0    |  NC     |   A0    |
-|  D3  |   RS   |    NC   |
-|  D4   |    R/W  |   NC    |
-|  D5   |   E    |    NC   |
-|   D6  |  RST     |    NC   |
-|  3.3V    |   BLA     |   NC    |
-|   GND   |  BLK    |  NC      |
-| -------- | -------- | -------- | 
 
 ## Verdrahtung OLED-Display:
 
