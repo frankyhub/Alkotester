@@ -4,7 +4,9 @@
 
 ## Story
 Das Repo beschreibt einen Alkotester mit einem NANO und einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten Messung eine Aufärmzeit benötigt.
-Die Messung wird in mehrere Stufen unterteilt. Es steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
+Nach dem Einschalten erscheint eine Balkenanzeige die die Aufwärmphase des Sensors zeigt.
+
+Die Messung wird in sieben Stufen unterteilt. Es steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
 
 ![Bild](pics/oledcase.png)
 
