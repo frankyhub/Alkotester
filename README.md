@@ -10,7 +10,7 @@ Für die Inbetriebnahme steht ein Testprogramm für den MQ-3 Sensor mit Library 
 
 ![Bild](pics/oledcase.png)
 
-## Abstufungen beim Alktest
+## Abstufungen beim Alkotest
 
 ![Bild](pics/OLED.png)
 
