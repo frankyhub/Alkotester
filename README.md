@@ -3,10 +3,10 @@
 # Alkotester
 
 ## Story
-Das Repo beschreibt ein Testgerät für das Wohlbefinden beim Oktoberfest mit einem NANO, einem MQ-3 Sensor und einem OLED-Display. Zu beachten ist, dass der MQ-3 Sensor vor der ersten Messung eine Aufärmzeit benötigt.
-Nach dem Einschalten erscheint eine Balkenanzeige die die Aufwärmphase des Sensors zeigt. Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450 empfiehlt sich eine Brotzeit und eine Trinkpause.
+Das Repo beschreibt ein Testgerät für das Wohlbefinden beim Oktoberfest. Nach dem Einschalten erscheint eine Balkenanzeige die die Aufwärmphase des Sensors zeigt. 
+Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450 empfiehlt sich eine Brotzeit und eine Trinkpause.
 
-Für die Inbetriebnahme steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
+
 
 ![Bild](pics/oledcase.png)
 
@@ -14,6 +14,7 @@ Für die Inbetriebnahme steht ein Testprogramm für den MQ-3 Sensor mit Library 
 
 ![Bild](pics/OLED.png)
 
+Für die Inbetriebnahme steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
 
 ## Hardware:
 + 1 NANO
