@@ -10,9 +10,13 @@ Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450 empfiehlt
 
 ![Bild](pics/oledcase.png)
 
+---
+
 ## Abstufungen beim Alkotest
 
 ![Bild](pics/OLED.png)
+
+---
 
 Für die Inbetriebnahme steht ein Testprogramm für den MQ-3 Sensor mit Library und ein Testprogramm für das OLED-Display mit I2C-Scanner zur Verfügung.
 
@@ -43,6 +47,7 @@ Technische Daten:
 +	Heizenergieleistung: 750 mW
 +	Abmessungen: 32 x 21 x 20 mm
 
+---
 
 ## Verdrahtung OLED-Display:
 
@@ -54,6 +59,8 @@ Technische Daten:
 | A4  |   SDA  |    NC   |
 |  A5   |    SCL  |   NC    |
 | -------- | -------- | -------- |
+
+---
 
 <div style="position:absolute; left:2cm; ">   
 <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
