@@ -60,6 +60,11 @@ Technische Daten:
 |  A5   |    SCL  |   NC    |
 | -------- | -------- | -------- |
 
+
+## Versuchsaufbau
+
+![Bild](pics/Aufbau.jpg)
+
 ---
 
 <div style="position:absolute; left:2cm; ">   
