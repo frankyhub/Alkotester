@@ -4,7 +4,7 @@
 
 ## Story
 Das Repo beschreibt ein Testgerät für das Wohlbefinden auf dem Oktoberfest. Nach dem Einschalten erscheint eine Balkenanzeige die die Aufwärmphase des Sensors zeigt. 
-Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450 empfiehlt sich eine Brotzeit und eine Trinkpause.
+Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450ppm empfiehlt sich eine Brotzeit und eine Trinkpause.
 
 
 
