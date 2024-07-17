@@ -2,6 +2,7 @@
                                       PROGRAMMINFO
 **************************************************************************************************
   Funktion: Alktester mit einem NANO und einem OLED-Display 1,3"
+            Warn-LED don´t drive
 
 **************************************************************************************************
   Version: 15.07.2024
@@ -29,18 +30,23 @@
 
 #define OLED_RESET 4
 Adafruit_SH1106 display(OLED_RESET);
-int TIME_UNTIL_WARMUP = 300;
+int TIME_UNTIL_WARMUP = 300; //300
 unsigned long time;
-
 
 int analogPin = 0;
 int val = 0;
 
+int LED = 13; //LED_BUILTIN
+int DigitalPin = 5; //Sensor LED
+int valDP;         // Sensor Status don´t drive ~220ppm
 
 void setup()   {
 
+  pinMode (LED, OUTPUT);
+  pinMode (DigitalPin, INPUT);
+
   display.begin(SH1106_SWITCHCAPVCC, 0x3C);
-  display.display();
+
 }
 
 
@@ -48,7 +54,10 @@ void loop() {
 
   delay(100);
 
+  valDP = digitalRead(DigitalPin);
+
   val = readAlcohol();
+  val = val / 3; //Sensor Eichen
   printTitle();
   printWarming();
 
@@ -67,8 +76,19 @@ void loop() {
   }
   display.display();
 
-}
+  //Warn LED don´t drive
+  if (valDP == LOW)
+  {
+    digitalWrite(LED, HIGH); //don´t drive
+    delay(50);
+  }
 
+  if (valDP == HIGH)
+  {
+    digitalWrite(LED, LOW);
+    delay(50);
+  }
+}
 
 void printTitle()
 {
@@ -77,7 +97,6 @@ void printTitle()
   display.setTextColor(WHITE);
   display.setCursor(5, 0);
   display.println("Alkotester");
-
 }
 
 void printWarming()
