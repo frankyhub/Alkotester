@@ -3,8 +3,8 @@
 # Alkotester
 
 ## Story
-Das Repo beschreibt ein Testgerät für das Wohlbefinden auf dem Oktoberfest. Nach dem Einschalten erscheint eine Balkenanzeige die die Aufwärmphase des Sensors zeigt. 
-Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert > 450ppm empfiehlt sich eine Brotzeit und eine Trinkpause.
+Das Repo beschreibt ein Testgerät für das Wohlbefinden im Biergarten. Nach dem Einschalten erscheint eine Balkenanzeige. Sie zeigt die Aufwärmphase des Sensors. 
+Die Messung wird in sieben Stufen unterteilt. Bei einem Messwert >200ppm leuchtet die LED "don't drive" und bei einem Meßwert >400ppm empfiehlt sich eine Brotzeit und eine Trinkpause.
 
 
 
