@@ -80,7 +80,7 @@ Technische Daten:
 
 ## Versuchsaufbau
 
-<img src="pics/Aufbau.png" width="500"> 
+<img src="pics/Aufbau.jpg" width="500"> 
 <br> <br>
 
 ---
